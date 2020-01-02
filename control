@@ -4,9 +4,9 @@ Depends: mobilesubstrate, firmware (>= 13.0)
 Version: 1.0
 Architecture: iphoneos-arm
 Description: Darken the screenshot flash color!
-Depiction: https://skity.xyz/repo/depictions/?p=xyz.skity.darkshot
-SileoDepiction: https://skity.xyz/repo/depictions/?s=xyz.skity.darkshot
-Icon: https://skity.xyz/repo/icons/xyz.skity.darkshot.png
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.darkshot
+SileoDepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.darkshot
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.darkshot.png
 Maintainer: Skitty
 Author: Skitty
 Section: Tweaks
