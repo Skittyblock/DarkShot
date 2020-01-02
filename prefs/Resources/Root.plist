@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>DSHeader</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>xyz.skitty.darkshot</string>
+			<key>PostNotification</key>
+			<string>xyz.skitty.darkshot.prefschanged</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Sync with system Dark Mode</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>xyz.skitty.darkshot</string>
+			<key>PostNotification</key>
+			<string>xyz.skitty.darkshot.prefschanged</string>
+			<key>key</key>
+			<string>darkMode</string>
+			<key>label</key>
+			<string>Dark Mode</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Use ambient light sensor to detect low light enviroments.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>xyz.skitty.darkshot</string>
+			<key>PostNotification</key>
+			<string>xyz.skitty.darkshot.prefschanged</string>
+			<key>key</key>
+			<string>ambientLight</string>
+			<key>label</key>
+			<string>Low Light</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Light Threshold</string>
+			<key>footerText</key>
+			<string>Light levels lower then this are considered low light. 0 = No light, 1000 = Full sunlight. Default is 50.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>50</real>
+			<key>defaults</key>
+			<string>xyz.skitty.darkshot</string>
+			<key>PostNotification</key>
+			<string>xyz.skitty.darkshot.prefschanged</string>
+			<key>key</key>
+			<string>luxThreshold</string>
+			<key>min</key>
+			<real>0</real>
+			<key>max</key>
+			<real>1000</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>DarkShot</string>
+</dict>
+</plist>
